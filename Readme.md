@@ -7,4 +7,5 @@ Las carpetas *Sections* y *Sections-en* contienen los diferentes capítulos en c
 
 ## Traducción
 Pablo Alapont
+
 Pablo MacVeigh
