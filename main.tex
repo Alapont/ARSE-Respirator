@@ -1,0 +1,51 @@
+\documentclass[two column, oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[en]{babel} %Gestor de locales
+
+\usepackage{graphicx} %gráficos extendidos
+\usepackage{float} %numeración flotante
+\usepackage{fixltx2e} %subscripts
+\usepackage{appendix}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{listings}
+
+\title{ARSE Respirator}
+\author{Enrique Alapont}
+\date{20200409}
+
+% Macros
+\newcommand{\Vcc}{Vcc}% Vdc
+\newcommand{\Vca}{Vca}% Vac
+
+
+\begin{document} 
+    \maketitle
+    %En
+    \input{Sections-en/Summary}
+    \input{Sections-en/Introduction}
+    \input{Sections-en/Design}
+    \input{Sections-en/Build}
+    \input{Sections-en/Operation}
+    %Es
+    %\input{Sections/Resumen}
+    %\input{Sections/Introduccion}
+    %\input{Sections/Diseño}
+    %\input{Sections/Construcción}
+    %\input{Sections/Operación}
+    \input{Sections/Mantenimiento}
+    \input{Sections/Destrucción}
+    
+    %Auto
+    \clearpage
+    \listoffigures
+    \bibliographystyle{unsrt}
+    \bibliography{biblio}
+    
+    %appendix
+    \onecolumn
+    \appendix
+    \appendixpage
+    \input{Sections/Programa}
+    
+\end{document}

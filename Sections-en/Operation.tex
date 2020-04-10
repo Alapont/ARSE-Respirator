@@ -1,0 +1,31 @@
+\section{Operation}
+    Turbine power will be selected from the front panel (0 to 100\%), inhaling and exhaling time (with minimum and maximums software defined).\\
+    %Desde el panel frontal se seleccionará la potencia de la turbina (de 0 a 100\%), el tiempo de inspiración (desde mínimo a máximos programados) y el tiempo de espiración (con mínimo y máximo programados).\\
+    
+    The display provides the following information:
+    %El display ofrece la siguiente información:
+    \begin{itemize}
+        \item Top row
+        \begin{itemize}
+            \item[--] P: Power, from 0 to 99\%
+            \item[--] R: Breathing per minute (BPM) \footnote{Translator's Note: Respiraciones Por Minuto in original Spanish, therefore the R}
+            \item[--] E/I Actual phase: I0, I1, E0, E1
+            \item[--] i: Inhaling time, secconds
+        \end{itemize}
+        \item Bottom row
+        \begin{itemize}
+            \item[--] I:E: Inhaling exhaling ratio
+            \item[--] E: Exhaling time
+        \end{itemize}
+    \end{itemize}
+    
+    
+    El programa lleva a cabo el ciclo inspiración+espiración en cuatro fases: I0, I1, E0 y E1 en las que las fases I0 y E0 son muy breves y solo se usan para ajustes técnicos (como la arrancada del motor, por ejemplo), la casi totalidad de la inspiración se lleva a cabo en I1. E0 no se usa actualmente\\
+    
+    Los tiempos seleccionados corresponden a;
+    \begin{itemize}
+        \item Tiempo de inspiración: I0 + I1
+        \item Tiempo de espiración: E0 + E1
+    \end{itemize}
+    
+    En el actual diseño la selección de tiempos se hace escogiendo los tiempos de inspiración y espiración y mostrando las RPM y la relación I:E. Puede fácilmente cambiarse el programa para que los potenciómetros seleccionen la relación I:E y las RPM.
