@@ -9,5 +9,5 @@ Las carpetas *Sections* y *Sections-en* contienen los diferentes capítulos en c
 Sin ningún orden específico
 - Pablo Alapont
 - Pablo MacVeigh
-- Tommy VanPottelberg
+- Tommy VanPottelbergh
 - Monica Prieto
