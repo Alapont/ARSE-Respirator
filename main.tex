@@ -1,6 +1,6 @@
 \documentclass[two column, oneside]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[en]{babel} %Gestor de locales
+\usepackage[es]{babel} %Gestor de locales
 
 \usepackage{graphicx} %gráficos extendidos
 \usepackage{float} %numeración flotante
@@ -9,36 +9,39 @@
 \usepackage{lipsum}
 \usepackage{multicol}
 \usepackage{listings}
+\usepackage{eurosym} %euro symbol
+\usepackage{lmodern}
 
-\title{ARSE Respirator}
+% \title{EDETA Ventilator} %Nombre inglés
+\title{Respirador ARSE} %Nombre no inglés
 \author{Enrique Alapont\\alapont@yahoo.com}
 \date{20200401}
 
 % Voltajes en castellano
-% \newcommand{\Vcc}{Vcc}
-% \newcommand{\Vca}{Vca}
+ \newcommand{\Vcc}{Vcc}
+ \newcommand{\Vca}{Vca}
 % English Voltages
-\newcommand{\Vcc}{Vdc}
-\newcommand{\Vca}{Vac}
+% \newcommand{\Vcc}{Vdc}
+% \newcommand{\Vca}{Vac}
 
 
 \begin{document} 
     \maketitle
     %En
-    \input{Sections-en/Summary}
-    \input{Sections-en/Introduction}
-    \input{Sections-en/Design}
-    \input{Sections-en/Build}
-    \input{Sections-en/Operation}
-    \input{Sections-en/Maintenance}
-    \input{Sections-en/Destruction}
+    % \input{Sections-en/Summary}
+    % \input{Sections-en/Introduction}
+    % \input{Sections-en/Design}
+    % \input{Sections-en/Build}
+    % \input{Sections-en/Operation}
+    % \input{Sections-en/Maintenance}
+    % \input{Sections-en/Destruction}
     %Es
-    %\input{Sections/Resumen}
-    %\input{Sections/Introduccion}
-    %\input{Sections/Diseño}
-    %\input{Sections/Construcción}
-    %\input{Sections/Operación}
-    %\input{Sections/Mantenimiento}
+    \input{Sections/Resumen}
+    \input{Sections/Introduccion}
+    \input{Sections/Diseño}
+    \input{Sections/Construcción}
+    \input{Sections/Operación}
+    \input{Sections/Mantenimiento}
     \input{Sections/Destrucción}
     
     %Auto
